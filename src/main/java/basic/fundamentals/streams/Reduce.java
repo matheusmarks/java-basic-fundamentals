@@ -11,7 +11,7 @@ public class Reduce {
         return people
                 .stream()
                 .map(person -> person.age())
-                .reduce(0,(subtotal, age) -> subtotal + age);gi
+                .reduce(0,(subtotal, age) -> subtotal + age);
     }
 
     public Double getAverageAge(List<Person> people) {
