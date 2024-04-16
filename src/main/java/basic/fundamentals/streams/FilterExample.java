@@ -9,7 +9,9 @@ public class FilterExample {
 
 
     public void printingPeopleList(List<Person> people) {
+        System.out.println("------------------ PRINTING ALL PEOPLE -------------------------");
         people.forEach(System.out::println);
+        System.out.println("----------------------------------------------------------------");
     }
 
 
