@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .idea
 java-collection-api.iml
+java-basic-fundamentals.iml
 
 ### Eclipse ###
 .apt_generated
