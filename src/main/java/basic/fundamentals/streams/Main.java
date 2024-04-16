@@ -10,10 +10,11 @@ public class Main {
         List<Person> people = MockData.getPeople();
 
         FilterExample filterExample = new FilterExample();
+        Reduce reduceExample = new Reduce();
 
 
         filterExample.printingPeopleList(people);
-        System.out.println("SUM OF AGES: " + filterExample.getSumOfAllAges(people));
-        System.out.println("AVERAGE AGE: " + filterExample.getAverageAge(people));
+        System.out.println("SUM OF AGES: " + reduceExample.getSumOfAllAges(people));
+        System.out.println("AVERAGE AGE: " + reduceExample.getAverageAge(people));
     }
 }

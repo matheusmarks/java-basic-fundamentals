@@ -21,20 +21,7 @@ public class FilterExample {
                 .collect(Collectors.toList());
     }
 
-    public Integer getSumOfAllAges(List<Person> people) {
-         return people
-                .stream()
-                .map(person -> person.age())
-                .reduce(0,(subtotal, age) -> subtotal + age);
-    }
 
-    public Double getAverageAge(List<Person> people) {
-        return people
-                .stream()
-                .map(person -> person.age())
-                .reduce(0,(subtotal, age) -> (subtotal + age/people.size()))
-                .doubleValue();
-    }
 
 
 
