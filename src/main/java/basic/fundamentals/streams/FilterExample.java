@@ -22,7 +22,12 @@ public class FilterExample {
     }
 
 
-
+    public List<Person> getPeopleNamesStatingWith(List<Person> people, String initialLetterName) {
+        return people
+                .stream()
+                .filter(person -> person.name().startsWith(initialLetterName))
+                .collect(Collectors.toList());
+    }
 
 
 

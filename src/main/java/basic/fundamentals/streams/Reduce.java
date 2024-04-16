@@ -8,16 +8,17 @@ public class Reduce {
 
 
     public Integer getSumOfAllAges(List<Person> people) {
+
         return people
                 .stream()
-                .map(person -> person.age())
-                .reduce(0,(subtotal, age) -> subtotal + age);
+                .map(Person::age)
+                .reduce(0,Integer::sum);
     }
 
     public Double getAverageAge(List<Person> people) {
         return people
                 .stream()
-                .map(person -> person.age())
+                .map(Person::age)
                 .reduce(0,(subtotal, age) -> (subtotal + age/people.size()))
                 .doubleValue();
     }
