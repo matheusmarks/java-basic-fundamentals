@@ -10,11 +10,11 @@ public class MockData {
             new Person("Matheus", 23, 'M', "High School Degree"),
             new Person("Rebeca", 21, 'F', "Advocate Degree"),
             new Person("Alex", 38, 'M', "No Scholarship"),
-            new Person("Brenda", 15, 'F', "Student"),
+            new Person("Brenda", 21, 'F', "Student"),
             new Person("Cole", 27, 'M', "Student"),
             new Person("Miranda", 65, 'F', "High School Degree"),
             new Person("Louis", 10, 'M', "Student"),
-            new Person("Marcus", 40, 'M', "High School Degree"),
+            new Person("Marcus", 21, 'M', "High School Degree"),
             new Person("Jeena", 28, 'F', "High School Degree")
 
     );

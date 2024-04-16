@@ -11,8 +11,8 @@ public class Main {
         String initialLetterName = "R";
 
         FilterExample filterExample = new FilterExample();
-        Reduce reduceExample = new Reduce();
-        Map mapExample = new Map();
+        ReduceExample reduceExample = new ReduceExample();
+        MapExample mapExample = new MapExample();
 
 
         filterExample.printingPeopleList(people);
@@ -21,5 +21,6 @@ public class Main {
         System.out.println("SUM OF AGES: " + reduceExample.getSumOfAllAges(people));
         System.out.println("AVERAGE AGE: " + reduceExample.getAverageAge(people));
         System.out.println("ALL NAMES: " + mapExample.getAllNames(people));
+        System.out.println("GROUPED BY AGE" + mapExample.groupingByAge(people));
     }
 }

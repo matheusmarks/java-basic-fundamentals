@@ -4,7 +4,7 @@ import main.java.basic.fundamentals.streams.Entities.Person;
 
 import java.util.List;
 
-public class Reduce {
+public class ReduceExample {
 
 
     public Integer getSumOfAllAges(List<Person> people) {

@@ -1,3 +1,3 @@
 package main.java.basic.fundamentals.streams.Entities;
 
-public record Person(String name, int age, char gender, String education){}
+public record Person(String name, Integer age, char gender, String education){}
